@@ -6,7 +6,7 @@ app = Flask(__name__)
 def health():
     # just for test
     # test rebase
-    return "Hello Rishav, the server is up! lsjjos"
+    return "Hello Rishav, the server is up!"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=5050)
